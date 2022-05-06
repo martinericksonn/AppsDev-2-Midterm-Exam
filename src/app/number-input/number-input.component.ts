@@ -22,5 +22,7 @@ export class NumberInputComponent implements OnInit {
     which === 0
       ? this.firstNumber.emit(emitValue)
       : this.secondNumber.emit(emitValue);
+
+    console.log(this.firstNumber.emit);
   }
 }
