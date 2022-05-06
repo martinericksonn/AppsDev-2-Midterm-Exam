@@ -16,12 +16,6 @@ describe('NumberInputComponent', () => {
     component = fixture.componentInstance;
   });
 
-  // beforeEach(() => {
-  //   fixture = TestBed.createComponent(NumberInputComponent);
-  //   component = fixture.componentInstance;
-  //   fixture.detectChanges();
-  // });
-
   it('should contain fist number text content', () => {
     let label = fixture.debugElement.query(By.css('#first'));
     let content = label.nativeElement;

@@ -59,25 +59,25 @@ describe('OperationComponent', () => {
     expect(spyonButtonClick).toHaveBeenCalled();
   });
 
-  it('should operation emit when onButtonClick called with paramter of 1', () => {
+  it('should operation emit when onButtonClick is called with paramter of 1', () => {
     spyOn(component.operation, 'emit');
     component.onButtonClick(1);
 
     expect(component.operation.emit).toHaveBeenCalled();
   });
-  it('should operation emit when onButtonClick called with paramter of 2', () => {
+  it('should operation emit when onButtonClick is called with paramter of 2', () => {
     spyOn(component.operation, 'emit');
     component.onButtonClick(2);
 
     expect(component.operation.emit).toHaveBeenCalled();
   });
-  it('should operation emit when onButtonClick called with paramter of 3', () => {
+  it('should operation emit when onButtonClick is called with paramter of 3', () => {
     spyOn(component.operation, 'emit');
     component.onButtonClick(3);
 
     expect(component.operation.emit).toHaveBeenCalled();
   });
-  it('should operation emit when onButtonClick called with paramter of 4', () => {
+  it('should operation emit when onButtonClick is called with paramter of 4', () => {
     spyOn(component.operation, 'emit');
     component.onButtonClick(4);
 
